@@ -34,7 +34,7 @@
 package leetcode.editor.cn;
 
 //最长公共前缀
-
+//asdas
 public class P14_LongestCommonPrefix {
     public static void main(String[] args) {
         //测试代码
