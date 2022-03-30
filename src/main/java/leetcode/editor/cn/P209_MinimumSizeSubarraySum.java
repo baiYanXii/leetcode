@@ -64,7 +64,7 @@ public class P209_MinimumSizeSubarraySum {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int minSubArrayLen(int target, int[] nums) {
-            int sum = 0;
+            int sum = 0; //存储个数
             for (int i = 0; i < nums.length; i++) {
 
                 if (nums[i] >= target)
@@ -75,14 +75,14 @@ public class P209_MinimumSizeSubarraySum {
 //                else if (i == nums.length - 1)
 //                    return sum;
 
-                int temp = nums[i];
+                int temp = nums[i]; //存储目前的值
                 int tempSum = 1;
 
                 for (int j = i + 1; j < nums.length; j++) {
                     temp += nums[j];
                     tempSum++;
                     if (temp >= target) {
-                        if (sum == -1)
+                        if (sum == 0)
                             sum = tempSum;
                         if (sum > tempSum)
                             sum = tempSum;
