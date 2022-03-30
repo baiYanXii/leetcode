@@ -54,7 +54,6 @@ package leetcode.editor.cn;
 
 public class P209_MinimumSizeSubarraySum {
     public static void main(String[] args) {
-        //测试代码
         Solution solution = new P209_MinimumSizeSubarraySum().new Solution();
         int[] test = new int[]{2, 3, 1, 2, 4, 3};
         System.out.println(solution.minSubArrayLen(7, test));
