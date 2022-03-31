@@ -84,6 +84,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P728_SelfDividingNumbers.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/P728_SelfDividingNumbers.md" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P728_SelfDividingNumbers.java" />
+              <option name="questionId" value="728" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P977_SquaresOfASortedArray.java">
           <value>
             <LeetcodeEditor>
