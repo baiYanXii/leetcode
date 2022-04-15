@@ -48,6 +48,7 @@ public class P203_RemoveLinkedListElements {
     //leetcode submit region begin(Prohibit modification and deletion)
 
     //  Definition for singly-linked list.
+
     public class ListNode {
         int val;
         ListNode next;
@@ -68,7 +69,15 @@ public class P203_RemoveLinkedListElements {
     class Solution {
         public ListNode removeElements(ListNode head, int val) {
 
-            return new ListNode();
+            ListNode listNode = head;
+            while (head.next != null) {
+
+                if (head.next.val == val)
+                    head.next = head.next.next;
+                head = head.next;
+
+            }
+            return listNode;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
