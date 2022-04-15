@@ -63,34 +63,47 @@ public class P209_MinimumSizeSubarraySum {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int minSubArrayLen(int target, int[] nums) {
-            int sum = 0; //存储个数
-            for (int i = 0; i < nums.length; i++) {
-
-                if (nums[i] >= target)
-                    return 1;
+//            int sum = 0; //存储个数
+//            for (int i = 0; i < nums.length; i++) {
 //
-//                if (i == nums.length - 1 && nums[i] >= target)
+//                if (nums[i] >= target)
 //                    return 1;
-//                else if (i == nums.length - 1)
-//                    return sum;
+////
+////                if (i == nums.length - 1 && nums[i] >= target)
+////                    return 1;
+////                else if (i == nums.length - 1)
+////                    return sum;
+//
+//                int temp = nums[i]; //存储目前的值
+//                int tempSum = 1;
+//
+//                for (int j = i + 1; j < nums.length; j++) {
+//                    temp += nums[j];
+//                    tempSum++;
+//                    if (temp >= target) {
+//                        if (sum == 0)
+//                            sum = tempSum;
+//                        if (sum > tempSum)
+//                            sum = tempSum;
+//                        break;
+//                    }
+//                }
+//
+//            }
+//            return sum;
 
-                int temp = nums[i]; //存储目前的值
-                int tempSum = 1;
-
-                for (int j = i + 1; j < nums.length; j++) {
-                    temp += nums[j];
-                    tempSum++;
-                    if (temp >= target) {
-                        if (sum == 0)
-                            sum = tempSum;
-                        if (sum > tempSum)
-                            sum = tempSum;
-                        break;
-                    }
+//            更优解
+            int right = 0, leaf = 0;
+            int sum = 0;
+            int result = Integer.MAX_VALUE;
+            for (; right < nums.length; right++) {
+                sum += nums[right];
+                while (sum >= target) {
+                    result = Math.min(result, right - leaf + 1);
+                    sum -= nums[leaf++];
                 }
-
             }
-            return sum;
+            return result == Integer.MAX_VALUE ? 0 : result;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
