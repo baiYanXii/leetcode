@@ -3,6 +3,15 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/[386]字典序排数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/[386]字典序排数.md" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/[386]字典序排数.java" />
+              <option name="questionId" value="386" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P118_PascalsTriangle.java">
           <value>
             <LeetcodeEditor>
@@ -84,6 +93,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P386_LexicographicalNumbers.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/P386_LexicographicalNumbers.md" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P386_LexicographicalNumbers.java" />
+              <option name="questionId" value="386" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P59_SpiralMatrixIi.java">
           <value>
             <LeetcodeEditor>
@@ -126,6 +144,15 @@
               <option name="contentPath" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/P9_PalindromeNumber.md" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P9_PalindromeNumber.java" />
               <option name="questionId" value="9" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/[386]字典序排数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/P386_LexicographicalNumbers.md" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P386_LexicographicalNumbers.java" />
+              <option name="questionId" value="386" />
             </LeetcodeEditor>
           </value>
         </entry>
