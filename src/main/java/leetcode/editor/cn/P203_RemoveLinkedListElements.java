@@ -40,15 +40,6 @@ package leetcode.editor.cn;
 //移除链表元素
 
 public class P203_RemoveLinkedListElements {
-    public static void main(String[] args) {
-        //测试代码
-        Solution solution = new P203_RemoveLinkedListElements().new Solution();
-    }
-//力扣代码
-    //leetcode submit region begin(Prohibit modification and deletion)
-
-    //  Definition for singly-linked list.
-
     public class ListNode {
         int val;
         ListNode next;
@@ -66,18 +57,32 @@ public class P203_RemoveLinkedListElements {
         }
     }
 
+    public static void main(String[] args) {
+        //测试代码
+        Solution solution = new P203_RemoveLinkedListElements().new Solution();
+    }
+//力扣代码
+    //leetcode submit region begin(Prohibit modification and deletion)
+
+    //  Definition for singly-linked list.
+
     class Solution {
         public ListNode removeElements(ListNode head, int val) {
-
-            ListNode listNode = head;
-            while (head.next != null) {
-
-                if (head.next.val == val)
-                    head.next = head.next.next;
+            while (head != null && head.val == val) {
                 head = head.next;
-
             }
-            return listNode;
+            if (head == null) {
+                return head;
+            }
+            ListNode listNode = head;
+            while (listNode.next != null) {
+                if (listNode.next.val == val) {
+                    listNode.next = listNode.next.next;
+                } else {
+                    listNode = listNode.next;
+                }
+            }
+            return head;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

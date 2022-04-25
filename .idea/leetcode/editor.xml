@@ -102,6 +102,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P388_LongestAbsoluteFilePath.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/P388_LongestAbsoluteFilePath.md" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P388_LongestAbsoluteFilePath.java" />
+              <option name="questionId" value="388" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P59_SpiralMatrixIi.java">
           <value>
             <LeetcodeEditor>
