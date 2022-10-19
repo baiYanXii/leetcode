@@ -53,7 +53,7 @@ public class P19_RemoveNthNodeFromEndOfList {
             for (int i = 0; i < n + 1; i++) {
                 end = end.next;
             }
-
+            // 一直遍历到最后一个元素的下一个元素
             while (end != null) {
                 before = before.next;
                 end = end.next;
