@@ -69,6 +69,7 @@ public class P23_MergeKSortedLists {
                 if (poll.next != null) {
                     priorityQueue.add(poll.next);
                 }
+                // 指向下一个节点
                 p = p.next;
             }
             return result.next;
