@@ -91,6 +91,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P27_RemoveElement.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/P27_RemoveElement.md" />
+              <option name="frontendQuestionId" value="leetcode.cn27" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P27_RemoveElement.java" />
+              <option name="titleSlug" value="remove-element" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P83_RemoveDuplicatesFromSortedList.java">
           <value>
             <LeetcodeEditor>
