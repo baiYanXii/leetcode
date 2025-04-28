@@ -37,6 +37,7 @@ public class P2799_CountCompleteSubarraysInAnArray {
                     }
                     left++;
                 }
+                // 每满足一种情况就加一种情况
                 ans += left;
             }
             return ans;
