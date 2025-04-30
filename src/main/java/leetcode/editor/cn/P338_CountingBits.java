@@ -59,6 +59,4 @@ public class P338_CountingBits {
         }
     }
     //leetcode submit region end(Prohibit modification and deletion)
-
-
 }
